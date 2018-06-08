@@ -35,6 +35,8 @@ public class Conceptos_basicos extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setLocationByPlatform(true);
 
         jButton1.setBackground(new java.awt.Color(69, 69, 69));
         jButton1.setText("<<");
@@ -77,11 +79,12 @@ public class Conceptos_basicos extends javax.swing.JFrame {
                     .addComponent(jButton1)
                     .addComponent(jLabel1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 441, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        pack();
+        setSize(new java.awt.Dimension(713, 466));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -116,7 +119,7 @@ public class Conceptos_basicos extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Conceptos_basicos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Conceptos_basicos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
+       }
         //</editor-fold>
 
         /* Create and display the form */
